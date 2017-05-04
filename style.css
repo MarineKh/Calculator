@@ -1,0 +1,53 @@
+* {
+	user-select:none;
+}
+@media screen and (min-width: 5664px) {
+    td {
+        font-size: 8px;
+    }
+    .divInput {
+    	position: relative;
+   		bottom: 3px;
+    }
+}
+table {
+	width: 200px;
+	background-color: #86b4bc;
+}
+.divInput {
+	height: 25px;
+	width: 184px;
+    
+	color: white;
+	background-color: #475559;
+	text-align: right;
+	font-size: 20px;
+
+	padding: 20px 8px 0 8px;
+}
+.divContainer {
+	display: inline-block;
+}
+td {
+	width: 43px;
+    height: 36px;
+
+    color: white;
+    text-align: center;
+    border: 1px solid #475559;
+}
+tr:nth-of-type(1) {
+	background-color: #7dcbd9;
+}
+tr td:last-child {
+    background-color: #7dcbd9;
+}
+td:hover {
+	background-color: #475559;
+}
+tr td:hover:last-child {
+    background-color: #475559;
+}
+
+
+
